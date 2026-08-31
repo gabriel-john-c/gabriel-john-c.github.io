@@ -2,11 +2,20 @@
 title: Home
 layout: home
 nav_order: 1
-description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
+description: "Welcome page for my website"
 permalink: /
 ---
 
-# Home
+# Hello There!
+
+I am an IT professional who basically spends 90% staring at screens and the other 10% dreaming about staring at even more screens. What started as a hobby hosting game servers, has turned into a career I am passionate about. It ain't much, but its honest work...
+
+### What you can find here:
+
+- My Portfolio: My background in providing automated IT solutions.
+- My Blog: Occasional posts about any new projects I am diving into.
+
+Feel free to browse and connect with me here if you like anything you see. If not... understandable, have a great day! 
 
 ----
 
