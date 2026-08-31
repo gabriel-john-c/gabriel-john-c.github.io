@@ -3,6 +3,8 @@ description: Portfolio Website
 baseurl:     ""
 url:         "https://gabriel-john-c.github.io"
 
+repository: just-the-docs/just-the-docs # for github-metadata
+
 permalink: pretty
 
 defaults:
