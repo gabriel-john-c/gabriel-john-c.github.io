@@ -98,9 +98,9 @@ mermaid:
 heading_anchors: true
 
 # Aux links for the upper right navigation
-aux_links:
-  "LinkedIn":
-    - "https://linkedin.com/in/gabriel-john-cunanan/"
+#aux_links:
+#  "LinkedIn":
+#    - "https://linkedin.com/in/gabriel-john-cunanan/"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
@@ -114,9 +114,9 @@ nav_enabled: true
 nav_sort: case_sensitive # Capital letters sorted before lowercase
 
 # External navigation links
-nav_external_links:
-  - title: LinkedIn
-    url: https://linkedin.com/in/gabriel-john-cunanan/
+#nav_external_links:
+#  - title: LinkedIn
+#    url: https://linkedin.com/in/gabriel-john-cunanan/
 
 # Show navigation error report
 nav_error_report: true # default is false/nil.
