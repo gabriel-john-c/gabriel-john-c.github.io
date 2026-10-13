@@ -31,3 +31,6 @@ node_modules
 
 # Used for automated test results and metadata.
 tmp/
+
+# password protect pages
+_protected_pages.txt
