@@ -8,7 +8,7 @@ nav_order: 2
 
 Please see below for a copy of my CV
 
-*Last Updated: Aug 2026*
+*Last Updated: Sept 2026*
 
 Please email me for any inquiries [here](mailto:gabriel.john.cunanan@gmail.com)
 
