@@ -51,14 +51,15 @@ jobs:
           node-version: '20'
 
       - name: Encrypt Pages
+        env:
+          PROTECTED_PAGES_DATA: ${{ secrets.PROTECTED_PAGES }}
         run: |
           npm install -g pagecrypt
-          while IFS=' ' read -r file_path password || [ -n "$file_path" ]; do
-            # Skip empty lines or comments
+          echo "$PROTECTED_PAGES_DATA" | while IFS=' ' read -r file_path password || [ -n "$file_path" ]; do
             [[ -z "$file_path" || "$file_path" == \#* ]] && continue
             echo "Encrypting $file_path..."
             pagecrypt "$file_path" "$file_path" "$password"
-          done < _protected_pages.txt
+          done
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v5
